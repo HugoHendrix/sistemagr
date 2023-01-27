@@ -53,10 +53,44 @@ body {
 }
 
 .sub-container ion-icon {
-    font-size: 4rem;
+    font-size: 3.5rem;
     padding: 2rem;
 }
 
+
+.galeria {
+    width: 700px;
+    height: 200px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.galeria .icones-slider {
+    width: 280%;
+    animation-name: slider;
+    animation-duration: 18s;
+    animation-iteration-count: infinite;
+}
+
+.galeria .icones-slider ion-icon {
+    width:20%;
+}
+
+@keyframes slider {
+    0% { margin-left: 10; }
+    20% { margin-left: 20; }
+    25% { margin-left: 30;}
+    45% { margin-left: 40;}
+    50% { margin-left: 55;}
+    70% { margin-left: 60;}
+    75% { margin-left: 20;}
+    95% { margin-left: 10;}
+    100% { margin-left: -160%;}
+
+
+
+
+}
 
 
 .container-btn {
@@ -80,13 +114,15 @@ body {
 
 .btn:hover {
     transform: scale(1.1);
+    color: black;
+    background-color: #6acef9;
 }
 
 
 
 .card-login {
     width: 32rem;
-    margin: 4rem auto;
+    margin: 8rem auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,7 +153,7 @@ body {
     padding: 1.5rem;
     background: #dbdbdb;
     color: #000;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     box-shadow: 0px 10px 40px #27272756;
     outline: none;
 }
@@ -152,4 +188,6 @@ body {
 
 .btn-login:hover {
     transform: scale(1.1);
+    color: black;
+    background-color: #6acef9;
 }
