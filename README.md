@@ -4,7 +4,8 @@
 ![Logo Gr Trans Sat](https://raw.githubusercontent.com/HugoHendrix/sistemagr/4cd6d221c6b6784064f7ef0a1c37d4938583730d/assets/imagens/logo-trans-sat-form.svg)
 
 Página de login de acesso ao sistema da Trans Sat - Gerenciamento de Risco.
-## Documentação de cores
+
+### Documentação de cores
 
 | Cor               | Hexadecimal                                                |
 | ----------------- | ---------------------------------------------------------------- |
@@ -12,17 +13,14 @@ Página de login de acesso ao sistema da Trans Sat - Gerenciamento de Risco.
 | Cor Botões       | #00B1FF |
 
 
-
-
-
-## Apêndice
+### Apêndice
 
 Fonte utilizada: Roboto
 
 
-## Stack utilizada
+### Stack utilizada
 
-**Front-end:** HTML, CSS e JavaScript.
+**Front-end:** HTML e CSS.
 
 
 
