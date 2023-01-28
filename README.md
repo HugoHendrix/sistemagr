@@ -25,4 +25,4 @@ Fonte utilizada: Roboto
 
 
 ## Time GR Trans Sat
-![Logo](https://github.com/HugoHendrix/sistemagr/blob/main/assets/imagens/Time-Gr-Trans-Sat.png?raw=true)
+![Logo](https://github.com/HugoHendrix/sistemagr/blob/main/imagens/Time-Gr-Trans-Sat.png?raw=true)
