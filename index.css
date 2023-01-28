@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: #4C4C4C url(/imagens/LogoTransSat.svg) no-repeat center/cover;
+    background: #4C4C4C url(/LogoTransSat.svg) no-repeat center/cover;
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     color: #fff;
@@ -230,7 +230,7 @@ body {
 @media (max-width: 1200px) {
 
     body {
-        background: #4C4C4C url(/imagens/LogoTransSat-bg-mobile.svg) no-repeat center/cover;
+        background: #4C4C4C url(/LogoTransSat-bg-mobile.svg) no-repeat center/cover;
         margin: 0 auto;
         width: 100%;
           
