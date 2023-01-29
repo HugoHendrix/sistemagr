@@ -60,11 +60,11 @@ body {
 /* ESTRUTURA DO SLIDER */
 
 .galeria {
-    width: 700px;
+    width: 1220px;
     margin: auto;
     height: 200px;
     overflow: hidden;
-    margin: auto;
+    
 }
 
 .galeria .icones-slider {
@@ -75,48 +75,60 @@ body {
 }
 
 .galeria .icones-slider ion-icon {
-    width: 20%;
+    width: 40%;
 }
 
 /* PSUCLASSE PARA REALIZAR A ANIMAÇÃO */
 
 @keyframes slider {
     0% {
-        margin-left: 10;
+        margin-left: -10%;
     }
 
     20% {
-        margin-left: 20;
+        margin-left: -20%;
     }
 
     25% {
-        margin-left: 30;
+        margin-left: -30%;
     }
 
     45% {
-        margin-left: 40;
+        margin-left: -40%;
     }
 
     50% {
-        margin-left: 55;
+        margin-left: -55%;
     }
 
     70% {
-        margin-left: 60;
+        margin-left: -65%;
     }
 
     75% {
-        margin-left: 20;
+        margin-left: -75%;
     }
 
     95% {
-        margin-left: 10;
+        margin-left: -85%;
     }
 
     100% {
-        margin-left: -160%;
+        margin-left:  -125%;
     }
 
+    105% {
+        margin-left: -135;
+    }
+
+    0% {
+        margin-left: 100;
+
+    }
+
+    20% {
+        margin-left: 110;
+    }
 }
 
 /* BOTÃO SAIBA MAIS! */
